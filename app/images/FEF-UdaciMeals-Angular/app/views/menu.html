@@ -1,0 +1,79 @@
+<div class="jumbotron">
+  <h1>'oose 'ungry?</h1>
+  <p class="lead">
+    Delicious Meals that you create!
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+<div class="row">
+  <h3>Salads</h3>
+  <div class="items-container">
+    <div class="col-md-4" ng-repeat="item in menu.items.salads">
+      <h4>{{item.name}}</h4>
+      <img ng-src="images/{{item.img}}" alt="{{item.name}}">
+      <p><a ui-sref="item({id: item.id})">{{item.name}}</a></p>
+      <button ng-click="menu.chooseItem('salad', item.name)">Select Item</button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Sandwiches</h3>
+  <div class="items-container">
+    <div class="col-md-4" ng-repeat="item in menu.items.sandwiches">
+      <h4>{{item.name}}</h4>
+      <img ng-src="images/{{item.img}}" alt="{{item.name}}">
+      <p><a ui-sref="item({id: item.id})">{{item.name}}</a></p>
+      <button ng-click="menu.chooseItem('sandwich', item.name)">Select Item</button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Main Meals</h3>
+  <div class="items-container">
+    <div class="col-md-4" ng-repeat="item in menu.items.mainMeals">
+      <h4>{{item.name}}</h4>
+      <img ng-src="images/{{item.img}}" alt="{{item.name}}">
+      <p><a ui-sref="item({id: item.id})">{{item.name}}</a></p>
+      <button ng-click="menu.chooseItem('meal', item.name)">Select Item</button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Desserts</h3>
+  <div class="items-container">
+    <div class="col-md-4" ng-repeat="item in menu.items.desserts">
+      <h4>{{item.name}}</h4>
+      <img ng-src="images/{{item.img}}" alt="{{item.name}}">
+      <p><a ui-sref="item({id: item.id})">{{item.name}}</a></p>
+      <button ng-click="menu.chooseItem('dessert', item.name)">Select Item</button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Drinks</h3>
+  <div class="items-container">
+    <div class="col-md-4" ng-repeat="item in menu.items.drinks">
+      <h4>{{item.name}}</h4>
+      <img ng-src="images/{{item.img}}" alt="{{item.name}}">
+      <p><a ui-sref="item({id: item.id})">{{item.name}}</a></p>
+      <button ng-click="menu.chooseItem('drink', item.name)">Select Item</button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Snacks</h3>
+  <div class="items-container">
+    <div class="col-md-4" ng-repeat="item in menu.items.snacks">
+      <h4>{{item.name}}</h4>
+      <img ng-src="images/{{item.img}}" alt="{{item.name}}">
+      <p><a ui-sref="item({id: item.id})">{{item.name}}</a></p>
+      <button ng-click="menu.chooseItem('snack', item.name)">Select Item</button>
+    </div>
+  </div>
+</div>

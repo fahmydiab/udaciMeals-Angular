@@ -1,0 +1,21 @@
+[
+    {
+      "id": "bbq-pork-combo",
+      "name": "BBQ Pork Combo",
+      "img": "bbq-pork-combo.jpg",
+      "url": "https://www.eatclub.com/s/dish/BBQ-Pork-Combo/"
+
+    },
+    {
+      "id": "the-cali-trio",
+      "name": "The Cali Trio",
+      "img": "the-cali-trio.jpg",
+      "url": "https://www.eatclub.com/s/dish/crispy-ca-spicy-ca/"
+    },
+    {
+      "id": "chicken-shawarma-rice-bowl",
+      "name": "Chicken Shawarma Rice Bowl",
+      "img": "chicken-shawarma-rice-bowl.jpg",
+      "url": "https://www.eatclub.com/s/dish/Chicken-shawarma-rice-bowl-sajj/"
+    }
+  ]
